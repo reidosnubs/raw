@@ -1,0 +1,90 @@
+{
+"Version": "1.11.1",
+ "ReleaseNotes": "CONFIGURAÇÃO ATULIZADAS",
+"UrlUpdate": "https://pastebin.com/raw/1e0JYq9e",
+"Sms": "",
+"EmailFeedback": "",
+"UrlContato": "https://t.me/HOOU_VPN",
+"UrlTermos": ""
+"CheckUser": "true",
+"Udp": [
+{
+"Porta": "7300"
+}
+],
+"Servers": [
+{
+"Name": "Servidor BR",
+"TYPE": "premium",
+"FLAG": "br.png",
+"ServerIP": "vpngratis.xyz",
+"CheckUser": "vpngratis.xyz",
+"ServerPort": "22",
+"SSLPort": "443",
+"USER": "",
+"PASS": ""
+}
+],
+"Networks": [
+{
+"Name": "VIVO BR",
+"FLAG": "vivo",
+"Payload": "GET / HTTP/1.1[crlf]Host: contratos.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "172.64.195.2",
+"ProxyPort": "80",
+"Info": "PROXY"
+},
+{
+"Name": "VIVO TESTE",
+"FLAG": "vivo",
+"Payload": "GET /? HTTP/1.0[lf]Host: vpngratis.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "104.18.7.80",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "TIM",
+"FLAG": "tim",
+"Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: contratos.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "blog.alura.com.br",
+"TlsIP": "104.21.84.78",
+"ProxyIP": "",
+"ProxyPort": "443",
+"Info": "TLSWS"
+},
+{
+"Name": "CLARO",
+"FLAG": "claro",
+"Payload": "GET wss://br.corp.kaltura.com/ HTTP/1.1[crlf]Host: vpngratis.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "br.corp.kaltura.com",
+"TlsIP": "104.21.67.158",
+"ProxyIP": "",
+"ProxyPort": "443",
+"Info": "Tlsws"
+},
+{
+"Name": "OI1",
+"FLAG": "oi",
+"Payload": "GET / HTTP/1.1[crlf]Host: vpngratis.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+"SNI": "",
+"TlsIP": "",
+"ProxyIP": "104.16.54.91",
+"ProxyPort": "80",
+"Info": "Proxy"
+},
+{
+"Name": "OI2",
+"FLAG": "oi",
+"Payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[crlf]Host: vpngratis.xyz[crlf]Upgrade: mentalista[crlf][crlf]",
+"SNI": "www.hbogo.com.br",
+"TlsIP": "www.hbogo.com.br",
+"ProxyIP": "www.hbogo.com.br",
+"ProxyPort": "443",
+"Info": "Tlsws"
+}
+]
+}
