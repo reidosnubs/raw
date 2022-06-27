@@ -1,7 +1,7 @@
 {
 "Version": "1.11.1",
  "ReleaseNotes": "CONFIGURAÇÃO ATULIZADAS",
-"UrlUpdate": "https://pastebin.com/raw/1e0JYq9e",
+"UrlUpdate": "https://raw.githubusercontent.com/reidosnubs/raw/main/App",
 "Sms": "",
 "EmailFeedback": "",
 "UrlContato": "https://t.me/HOOU_VPN",
